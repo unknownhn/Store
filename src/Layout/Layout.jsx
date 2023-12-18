@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link,Outlet } from 'react-router-dom'
+import Button from '@mui/material/Button';
 
 
 const Layout = () => {
@@ -7,6 +8,8 @@ const Layout = () => {
    <div>
      <div className='navbar'>
       <ul>
+        
+      <Button variant="contained">Contained</Button>
         <li>
             <Link to="/">Home</Link>
         </li>
